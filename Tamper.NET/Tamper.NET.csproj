@@ -5,6 +5,24 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Title>Tamper.NET</Title>
+    <Authors>Kerod Kibatu</Authors>
+    <Company>KerVerse</Company>
+    <Description>seamless runtime memory manipulation for injecting custom logic into applications, games, and beyond!</Description>
+    <Copyright>License.txt</Copyright>
+    <PackageProjectUrl>https://github.com/kerodkibatu/Tamper.NET</PackageProjectUrl>
+    <PackageIcon>icon.jpeg</PackageIcon>
+    <RepositoryUrl>https://github.com/kerodkibatu/Tamper.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>.NET, Memory Manipulation, Runtime Modification, Game Modding, Dynamic Interception, Security, Penetration Testing, Custom Logic, Library, Development, Open Source</PackageTags>
+    <FileVersion>0.0.1</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.jpeg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
